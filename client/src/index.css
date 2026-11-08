@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+:root{
+  --color-primary: rgb(113, 113, 122);
+  --color-secondary: ;
+}
+::selection{
+  background-color: aqua;
+}
+*,*::after{
+  margin: 0;
+  box-sizing: border-box;
+}
+html{
+  font-size: 62.5%;
+}
+body{
+  font-family: Inter, "Inter Fallback";
+  font-size: 1.6rem;
+  color: var(--color-primary);
+}
