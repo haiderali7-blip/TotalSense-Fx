@@ -23,7 +23,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-er86@b#k+^%f!9cq0e6i*228v7u2$2*6e+0cj((!5@s-ev^jpp'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = [
     "totalsense-fx.onrender.com",
