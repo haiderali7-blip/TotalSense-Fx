@@ -21,6 +21,6 @@ from api.views import chat
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('hello/',hello),
-    path('api/v1/chat',chat)
+    #path('hello/',hello),
+    #path('api/v1/chat',chat)
 ]
