@@ -6,8 +6,8 @@ from .serializers import Serializer
 from .llm import call_llm
 
 # Create your views here.
-def hello(request):
-    return HttpResponse("Hello Django!")
+def homeView(request):
+    return HttpResponse("Welcome to TotalSense Fx Backend API is running successfully!")
 
 @api_view(["POST"])    
 def chat(request):

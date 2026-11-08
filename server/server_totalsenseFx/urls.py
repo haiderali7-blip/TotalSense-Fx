@@ -16,15 +16,11 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from api.views import hello
+from api.views import homeView
 from api.views import chat
 
-def home_view(request):
-    return HttpResponse("Welcome to TotalSense Fx Backend API is running successfully!")
-
 urlpatterns = [
-    path('', home_view),
+    path('', homeView),
     path('admin/', admin.site.urls),
-    path('hello/',hello),
     path('api/v1/chat/',chat)
 ]
