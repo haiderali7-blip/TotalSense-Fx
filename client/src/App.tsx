@@ -21,7 +21,7 @@ function App() {
     setPrompt({ ...prompt, ["prompt"]: "" });
   }
   function postQuery() {
-    axios.post("http://localhost:8000/api/v1/chat", prompt)
+    axios.post("https://totalsense-fx.onrender.com/api/v1/chat/", prompt)
       .then((Response) => {
         const report = Response.data.analyzed_report;
         setAnalysisReport({...analysisReport,...report});
