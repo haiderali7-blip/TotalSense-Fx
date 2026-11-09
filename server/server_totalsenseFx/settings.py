@@ -136,6 +136,5 @@ MAILERS = {
     },
 }
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:5173",
-    "https://your-frontend-domain.com",
+    "https://total-sense-fx-eta.vercel.app"
 ]
