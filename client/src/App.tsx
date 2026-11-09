@@ -63,7 +63,7 @@ function App() {
                       <h4 className="report-box__content-heading" key={key}>
                         {key}:
                       </h4>
-                      <p className="report-box__paragraph">
+                      <p className="report-box__paragraph" key={key + "p"}>
                         {analysisReport[key]}
                       </p>
                     </>
