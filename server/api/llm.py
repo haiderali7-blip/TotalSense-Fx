@@ -38,7 +38,7 @@ def call_llm(prompt):
           next24hours:
           bottomLine: One sentence explaining all analysis
           
-          do not output nested json. and every content of the fields have to be more than 200 words
+          do not output nested json. and every content of the fields have to be more than 200 words except target_asset.
           """
        }
     ]
