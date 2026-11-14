@@ -38,7 +38,7 @@ def call_llm(prompt):
           next24hours:
           bottomLine: One sentence explaining all analysis
           
-          do not output nested json. and don't response a short description
+          do not output nested json. and every content of the fields have to be more than 200 words
           """
        }
     ]
