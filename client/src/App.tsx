@@ -2,6 +2,8 @@ import "./App.css";
 import axios from "axios";
 import { useState } from "react";
 import { VscRunAll } from "react-icons/vsc";
+import { Analytics } from '@vercel/analytics/react';
+    
 
 interface analysisReport {
   [key: string]: string;
@@ -32,6 +34,7 @@ function App() {
   }
   return (
     <>
+    <Analytics />
       <section className="container">
         <div className="advertisement ad1"></div>
         <div className="main">
